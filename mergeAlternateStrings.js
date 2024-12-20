@@ -24,22 +24,15 @@ console.log(mergeAlternately("12345", "shiny"));
 //alternate ways
 //using for loop
 var mergeAlternately1 = function (word1, word2) {
-  let merged1 = "";
-  let x = 0,
-    y = 0;
+  let merged = "";
+  const maxLength = Math.max(word1.length, word2.length);
 
-  // Add characters from both strings alternately
-  while (x < word1.length || y < word2.length) {
-    if (x < word1.length) {
-      merged1 += word1[x];
-      x++;
-    }
-    if (y < word2.length) {
-      merged1 += word2[y];
-      y++;
-    }
+  for (let x = 0; x < maxLength; x++) {
+    if (x < word1.length) merged += word1[x];
+    if (x < word2.length) merged += word2[x];
   }
 
-  return merged1;
+  return merged;
 };
+
 console.log(mergeAlternately1("12345", "bobby"));
