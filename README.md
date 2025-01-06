@@ -12,4 +12,4 @@
 - A helper function computes the greatest common divisor (GCD) of two numbers. This function is based on the Euclidean algorithm
 - first checks if the two strings can have a common divisor string
 - If this condition isn’t true, it means there’s no valid GCD string, so it returns ""
-- 
+- line 6 if str1 and str2 share a common divisor then result should be same like AB+AB = ABAB and AB+AB = ABAB , AB+CD=ABCD, CD+AB =CDAB
