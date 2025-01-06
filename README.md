@@ -7,3 +7,9 @@
 
 - loop through the strings til the i and j are less than the string length and then add to merged variable word[i] and [j] and increase i and j .then return merged variable.
 - using for loop , find the max length of the strings and loop throught untill max length and add to merged alternalevely string 1 and 2 untill its less than str1.length and str2.length
+
+# Probem 2  find the greatest common divisor (GCD) of two strings
+- A helper function computes the greatest common divisor (GCD) of two numbers. This function is based on the Euclidean algorithm
+- first checks if the two strings can have a common divisor string
+- If this condition isn’t true, it means there’s no valid GCD string, so it returns ""
+- 
