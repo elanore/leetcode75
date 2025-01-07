@@ -13,3 +13,7 @@
 - first checks if the two strings can have a common divisor string
 - If this condition isn’t true, it means there’s no valid GCD string, so it returns ""
 - line 6 if str1 and str2 share a common divisor then result should be same like AB+AB = ABAB and AB+AB = ABAB , AB+CD=ABCD, CD+AB =CDAB
+
+# Problem 3 if can have extra candies or not
+- If candies = [2, 3, 5, 1, 3] and extraCandies = 3 
+- If the total is greater than or equal to maxCandies, return true; otherwise, return false.
