@@ -21,3 +21,7 @@
 - If the total is greater than or equal to maxCandies, return true; otherwise, return false.
 - const result = candies.map((candy) => candy + extraCandies >= maxCandies); - creates a new array, result, by checking each child's candies using .map()
 - max candy is found using Math.Max(candies)
+
+# Problem 4 can flowers
+
+# Problem 5 Reverse vowels of a string
