@@ -25,3 +25,11 @@
 # Problem 4 can flowers
 
 # Problem 5 Reverse vowels of a string
+
+# Problem 6 Move zeros - two pointer problem
+- lastNonZeroIndex is a pointer that keeps track of where to place the next non-zero element.
+- move throught the nums array and if its non zero ,move it as per the lastnonzeroIndex and increment the lastnonzeroindex with 1 and if the value is zero ,do nothing
+- final last nonzeroindexnumber and length of nums array , assign the rest of the index values to zero 
+- for (let i = lastNonZeroIndex; i < nums.length; i++) {
+    nums[i] = 0;
+}
