@@ -31,3 +31,6 @@
 - move throught the nums array and if its non zero ,move it as per the lastnonzeroIndex and increment the lastnonzeroindex with 1 and if the value is zero ,do nothing
 - final last nonzeroindexnumber and length of nums array , assign the rest of the index values to zero 
 - for (let i = lastNonZeroIndex; i < nums.length; i++) {nums[i] = 0;}
+
+# Problem 7 isSubsequence 
+- 
