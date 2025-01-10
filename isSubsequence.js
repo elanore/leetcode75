@@ -1,4 +1,4 @@
-var isSubsequence = function (s, t) {
+function isSubsequence(s, t) {
   let i = 0,
     j = 0;
 
@@ -10,7 +10,7 @@ var isSubsequence = function (s, t) {
   }
 
   return i === s.length;
-};
+}
 
 // Example usage:
 let s1 = "abc",
