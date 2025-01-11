@@ -23,8 +23,10 @@
 - max candy is found using Math.Max(candies)
 
 # Problem 4 can flowers
+- 
 
 # Problem 5 Reverse vowels of a string
+- 
 
 # Problem 6 Move zeros - two pointer problem
 
@@ -34,9 +36,7 @@
 - for (let i = lastNonZeroIndex; i < nums.length; i++) {nums[i] = 0;}
 
 # Problem 7 isSubsequence
-
--
+- 
 
 # Problem 8 max average of array subset
-
--
+- 
