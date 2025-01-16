@@ -23,10 +23,12 @@
 - max candy is found using Math.Max(candies)
 
 # Problem 4 can flowers
-- 
+
+-
 
 # Problem 5 Reverse vowels of a string
-- 
+
+-
 
 # Problem 6 Move zeros - two pointer problem
 
@@ -36,7 +38,16 @@
 - for (let i = lastNonZeroIndex; i < nums.length; i++) {nums[i] = 0;}
 
 # Problem 7 isSubsequence
-- 
+
+-
 
 # Problem 8 max average of array subset
-- 
+
+-
+
+# Problem 9 - max altitude biker
+
+- initially we give maxaltitude and current altitude value as zero
+- iterate through gain array and calculate currentaltitude = gain+ current altitude
+- compare if currentaltitude is greater than maxaltitude, if yes then assign that value to max altitude
+- return maxatitude
