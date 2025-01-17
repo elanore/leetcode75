@@ -51,3 +51,11 @@
 - iterate through gain array and calculate currentaltitude = gain+ current altitude
 - compare if currentaltitude is greater than maxaltitude, if yes then assign that value to max altitude
 - return maxatitude
+
+# Problem 10 Pivot index 
+-  first find total sum and initail leftsum wil be 0
+- using formula rightsum = totalsum - leftsum -num[i]
+- if right sum != leftsum then continue, leftsum = leftsum+num[i]
+- if rightsum= leftsum then that index is pivotindex
+- if rightsum 1=leftsum in the array then pivot index is -1
+
