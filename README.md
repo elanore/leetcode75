@@ -60,6 +60,5 @@
 - if rightsum= leftsum then that index is pivotindex
 - if rightsum 1=leftsum in the array then pivot index is -1
 
-# Problem 11 Difference in array
-
--
+# Problem 11 Difference in array findDifference.js
+- 
