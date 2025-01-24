@@ -61,4 +61,9 @@
 - if rightsum 1=leftsum in the array then pivot index is -1
 
 # Problem 11 Difference in array findDifference.js
-- 
+
+-
+
+# Problem 12 Unique Number of Occurrences
+
+-
