@@ -69,3 +69,15 @@
 -
 
 # Problem 13 recent Counter
+
+
+# Problem  14 Reversed LinkedList
+
+# Problem 15 Max Depth Problem
+
+# Problem 16 Similar Leaf Problem Binary Tree - DFS
+
+# Problem 17 Binary Tree - DFS 
+
+
+
